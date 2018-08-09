@@ -19,7 +19,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('bmamb'):
-        await client.send_message(message.channel, content="https://i.ytimg.com/vi/sjQoVzhpx3E/hqdefault.jpg \n Buna benzeyen arkadaşı diyorsun herhalde.")
+        await client.send_message(message.channel, content="image \n Buna benzeyen arkadaşı diyorsun herhalde.")
 
     if message.content.startswith('!nc'):
         await client.change_nickname(message.author,"bmamb")
